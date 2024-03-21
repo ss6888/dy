@@ -10,6 +10,15 @@ let addresses = [
 	'icook.hk:8443#香港',
 	'cfip.xxxxxxxx.tk#官方优选-otc提供',
 	'hk.100366.xyz#香港',
+	'162.159.15.230:8443#1',
+	'192.0.63.107:8443#2',
+	'104.16.159.213:8443#3',
+	'104.17.115.245:8443#4',
+	'104.16.28.145:8443#5',
+	'104.19.189.3:8443#6',
+	'162.159.20.41:8443#7',
+	'108.162.195.21:8443#8',
+	
 
 ];
 
@@ -23,8 +32,8 @@ let addressescsv = [
 	//'https://raw.githubusercontent.com/ss6888/dy/main/result.csv' //iptest测速结果文件。
 ];
 
-let subconverter = "api.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
-let subconfig = "https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/config/ACL4SSR.ini"; //订阅配置文件
+//let subconverter = "api"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
+let subconfig = "https://raw.githubusercontent.com/ss6888/dy/main/ACL4SSR.ini"; //订阅配置文件
 
 let link = '';
 let edgetunnel = 'ed';
@@ -42,7 +51,7 @@ let ChatID ='';
 let proxyhosts = [//本地代理域名池
 	//'ppfv2tl9veojd-maillazy.pages.dev',
 ];
-let proxyhostsURL = 'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/proxyhosts';//在线代理域名池URL
+let proxyhostsURL = 'https://raw.githubusercontent.com/ss6888/dy/main/proxyhosts';//在线代理域名池URL
 let EndPS = '';//节点名备注内容
 
 async function sendMessage(type, ip, add_data = "") {
