@@ -15,12 +15,12 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/dockkkk/CF-WORKERS/main/ip.txt' //可参考内容格式 自行搭建。
+	'https://raw.githubusercontent.com/ss6888/dy/main/ip.txt' //可参考内容格式 自行搭建。
 ];
 
 let DLS = 4;//速度下限
 let addressescsv = [
-	//'https://raw.githubusercontent.com/dockkkk/CF-WORKERS/main/result.csv' //iptest测速结果文件。
+	//'https://raw.githubusercontent.com/ss6888/dy/main/result.csv' //iptest测速结果文件。
 ];
 
 let subconverter = "api.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
@@ -219,7 +219,7 @@ export default {
 			
 			
 				
-				https://github.com/dockkkk/CF-WORKERS
+				https://github.com/ss6888/dy
 				`;
 			
 				return new Response(responseText, {
